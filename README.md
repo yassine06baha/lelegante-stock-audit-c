@@ -25,7 +25,3 @@ gcc src/stock_audit.c -o stock_audit
 ```
 
 Puis ouvrir `public/index.html`.
-
-## Niveau
-
-Intermédiaire : parsing de fichiers, structures C, tri, génération de données pour un front web.
