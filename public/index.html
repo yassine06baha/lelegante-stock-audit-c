@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Élégante | Audit Stock C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wrapper">
+        <header class="topbar">
+            <p class="tag">Audit stock généré en C</p>
+            <h1>Priorisation du réapprovisionnement boutique</h1>
+            <p class="subtitle">
+                Le programme C trie les articles selon le manque de stock et la vitesse de vente.
+            </p>
+        </header>
+
+        <section class="toolbar">
+            <select id="categoryFilter">
+                <option value="all">Toutes les catégories</option>
+            </select>
+            <div class="metric-box">
+                Budget réassort estimé : <strong id="budgetValue">0.00 EUR</strong>
+            </div>
+        </section>
+
+        <section id="stockGrid" class="stock-grid"></section>
+    </main>
+
+    <script src="report.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
